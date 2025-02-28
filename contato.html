@@ -37,60 +37,80 @@
     </div>
 </nav>
 
-<!-- Container com metade texto e metade imagem -->
-<div class="d-flex flex-row my-5">
-    <div class="text w-100 d-flex flex-column justify-content-center align-center text-center">
-        <h1>L.12.12 Polo Merci, a solidariedade no coração</h1>
-        <p>Em apoio à Federação Internacional das Sociedades da Cruz Vermelha
-            e do Crescente Vermelho, a totalidade das vendas da polo
-            (impostos excluídos) permitirá a implementação de programas de
-            proteção da saúde dos seus voluntários, em 26 países onde atualmente
-            não existe qualquer cobertura médica.</p>
-    </div>
-        <div class="image w-100 d-flex flex-row justify-content-center align-center">
-            <div id="carouselExample" class="carousel slide">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="img_13.png" style="width: 70%; height: 70%" class="d-block w-100">
+<div class="container">
+    <form>
+      <div class="form-row required">
+        <div class="form-group col-md-6">
+          <label for="inputEmail4" >Email</label>
+          <input type="email" class="form-control" id="inputEmail4" placeholder="Email" required>
         </div>
-        <div class="carousel-item">
-          <img src="img_14.png" style="width: 70%; height: 70%" class="d-block w-100" >
-        </div>
-        <div class="carousel-item">
-          <img src="img_15.png" style="width: 70%; height: 70%" class="d-block w-100" >
+        <div class="form-group col-md-6">
+<!--     Password - senha       -->
+          <label for="inputPassword4">Senha</label>
+          <input type="password" class="form-control" id="inputPassword4" placeholder="Senha">
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-    </div>
-</div>
+      <div class="form-group">
+        <label for="inputAddress">Nome</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="Nome">
+      </div>
+      <div class="form-group">
+<!--   Address - Enderaço       -->
+        <label for="inputAddress2">Endereço</label>
+        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartamento, Rua, Bairro">
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="City">Cidade</label>
+          <input type="text" class="form-control" id="City" placeholder="Cidade">
+        </div>
+        <div class="form-group col-md-4">
+<!--     State - estado       -->
+          <label for="inputState">Estado</label>
+          <select class="form-control" id="inputState">
+            <option selected>Estado</option>
+            <option>RS</option>
+            <option>SC</option>
+            <option>RO</option>
+            <option>PR</option>
+            <option>SP</option>
+            <option>MG</option>
+            <option>RJ</option>
+            <option>ES</option>
+            <option>BA</option>
+            <option>SE</option>
+            <option>AL</option>
+            <option>PE</option>
+            <option>PB</option>
+            <option>RN</option>
+            <option>CE</option>
+            <option>PI</option>
+            <option>MA</option>
+            <option>TO</option>
+            <option>GO</option>
+            <option>DF</option>
+            <option>MS</option>
+            <option>MT</option>
+            <option>PA</option>
+            <option>AC</option>
+            <option>AP</option>
+            <option>RR</option>
+            <option>AM</option>
+          </select>
+        </div>
 
-<!-- Container com 3 cards -->
-<div class="cards d-flex flex-row justify-content-around align-center mb-5">
-    <div class="card col-3 align-items-center">
-        <img src="img_2.png" alt="Imagem do Card 1" class="w-50">
-        <h3>Sapatos</h3>
-        <p>Esta em breve .</p>
-    </div>
-    <div class="card col-3 align-items-center">
-        <img src="img_3.png" alt="Imagem do Card 2" class="w-50">
-        <h3>Polos</h3>
-        <p>Esta em breve </p>
-    </div>
-    <div class="card col-3 align-items-center">
-        <img src="img_4.png" alt="Imagem do Card 3" class="w-50">
-        <h3>Boné</h3>
-        <p>Está em breve</p>
-    </div>
+      </div>
+      <div class="form-group">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck">
+          <label class="form-check-label" for="gridCheck">
+            Lembrar de mim
+          </label>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary">Sign in</button>
+    </form>
 </div>
-
 <!-- Rodapé -->
 <footer class="footer text-center bg-dark text-light ">
     <a class=" text-light" href="https://www.whatsapp.com/?lang=pt_BR"><i class="meu-icone bi bi-whatsapp m-3"></i></a>
