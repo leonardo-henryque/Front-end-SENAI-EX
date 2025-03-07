@@ -7,6 +7,8 @@
           integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+
+
     <title>Programação Front-End</title>
 
 </head>
@@ -40,7 +42,7 @@
 <!-- Container com metade texto e metade imagem -->
 <div class="d-flex flex-row my-5">
     <div class="text w-100 d-flex flex-column justify-content-center align-center text-center">
-        <h1>L.12.12 Polo Merci, a solidariedade no coração</h1>
+        <h1 id="titulo" onmousedown="testText()" onmouseup="reset()" onmouseover="testColor()">L.12.12 Polo Merci, a solidariedade no coração</h1>
         <p>Em apoio à Federação Internacional das Sociedades da Cruz Vermelha
             e do Crescente Vermelho, a totalidade das vendas da polo
             (impostos excluídos) permitirá a implementação de programas de
@@ -78,6 +80,12 @@
         <img src="img_2.png" alt="Imagem do Card 1" class="w-50">
         <h3>Sapatos</h3>
         <p>Esta em breve .</p>
+<!--        <form>-->
+<!--            <label>-->
+<!--                Label-->
+<!--                <input id="input" onmousedown="testInput()">-->
+<!--            </label>-->
+<!--        </form>-->
     </div>
     <div class="card col-3 align-items-center">
         <img src="img_3.png" alt="Imagem do Card 2" class="w-50">
@@ -106,6 +114,8 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
 <!--NÃO PODE TER NADA DEPOIS DO SCEIPT-->
+
+    <script src="exemplo.js"></script>
 
 </body>
 </html>
